@@ -1,0 +1,49 @@
+#main_header {
+
+    .navbar {
+        a {
+            img {
+                width: 110px;
+            }
+        }
+        .navbar-nav {
+            li {
+                a {
+                    display: block;
+                    font-weight: 700;
+                    padding: 10px 25px;
+                    text-transform: uppercase;
+                    color: $blue;
+
+                    &:hover, &:active, &:focus {
+                        
+                    }
+                }
+            }
+        } 
+    }
+
+    .bg-header {
+        position: relative;
+        z-index: 0;
+        background-image: url('../images/bg-header.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 100%;
+    
+        height: 45vh;
+        min-height: 300px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.2);
+            z-index: -1;
+        }
+    }
+    
+}

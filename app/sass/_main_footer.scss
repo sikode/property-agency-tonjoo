@@ -1,0 +1,36 @@
+footer {
+    padding: 60px 0;
+    background-color: $blue2;
+    color: $w;
+    border-bottom: 1px solid rgba($color: $w, $alpha: .2);
+
+    .p_content {
+        font-size: 14px;
+    }
+
+    h6 {
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        color: $green;
+        font-weight: 700;
+    }
+
+    .no-style {
+        list-style: none;
+        padding: 0;
+
+        li {
+            padding-bottom: 12px;
+
+            a {
+                color: $w;
+                font-size: 13px;
+                text-transform: uppercase;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    
+    
+}

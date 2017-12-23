@@ -1,0 +1,65 @@
+#property {
+    background-color: $blue2;
+    color: $w;
+    border-bottom: 1px solid rgba($color: $w, $alpha: .2);
+    
+    .bg-media {
+        background-color: $bl2;
+        border: 1px solid rgba($color: $w, $alpha: .2);
+        border-bottom: none;
+    }
+
+    .media {
+        text-transform: uppercase;
+        padding: 55px 15px;
+
+        img {
+            width: 60px;
+        }
+
+        .media-body {
+            h3 {
+                font-weight: 700;
+            }
+
+            p {
+                font-weight: 300;
+                font-size: 17px;
+                letter-spacing: 3px;
+            }
+        }
+    }
+
+    .content {
+        font-weight: 300;
+        font-size: 25px;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 13px 48px;
+        font-weight: 600;
+        color: $w;
+        background-color: $green;
+        text-transform: uppercase;
+
+        &:hover, &:focus {
+            background-color: #27c4a4;
+        }
+    }
+
+    .agency {
+        .no-gutters {
+            .pl-3 {
+                @media screen and (max-width: 992px) {
+                    padding: 0!important;
+                }
+            }
+        }
+    }
+    
+}

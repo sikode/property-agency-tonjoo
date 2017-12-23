@@ -1,0 +1,29 @@
+#info {
+    background-color: $green;
+
+    .col:first-child, .col:last-child {
+        border-left: 1px solid $w;
+        border-right: 1px solid $w;
+
+        @media screen and (max-width: 768px) {
+            border: none;
+        }
+    }
+
+    .media {
+        max-width: 330px;
+        color: $w;
+        padding: 8px 15px 4px;
+
+        @media screen and (max-width: 768px) {
+            padding: 2px 0px;
+        }
+
+        p {
+            .fa {
+                font-size: 30px;
+            }
+        }
+    }
+
+}

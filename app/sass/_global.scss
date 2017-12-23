@@ -1,0 +1,21 @@
+body {
+    font-family: $font;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: $bl1;
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.clearfix {
+    &::before, &::after {
+        content: '';
+        clear: both;
+    }
+
+    &::after {
+        display: table;
+    }
+}
